@@ -1,2 +1,2 @@
 # Utility
-A repository for generally usefull classes
+A repository for generally useful classes
