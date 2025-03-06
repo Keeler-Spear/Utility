@@ -19,8 +19,6 @@ import java.util.Scanner;
 public class ReadFile {
     final static int MAX_SIZE = 10000;
 
-    //Let the user select a specific column based on a String they provide which is the "title" of the column
-    //ToDo: Allow for a boolean input labelAtStart. If true, that means that the sample's labels are in first column (after skip). Otherwise the labels will be in the last column
     //c1 and c2 are classes; skip is the number of elements the program should avoid
     public static double[][] csvToArray(String file, String c1, String c2, int skip) {
         List<double[]> dataList = new ArrayList<>();
