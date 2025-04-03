@@ -42,7 +42,6 @@ public class ReadFile {
                     data[i] = data[i].replace(c1, "0").replace(c2, "1");
                     row[i - skip] = Double.parseDouble(data[i]);
                 }
-
                 dataList.add(row);
             }
         } catch (IOException | NumberFormatException ex) {
